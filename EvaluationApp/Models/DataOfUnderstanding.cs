@@ -14,7 +14,6 @@ namespace EvaluationApp.Models
         public int StudentsId { get; set; }
         public Students Students { get; set; }
 
-        //TODO: add Lecture Id
         public int? LecturesId { get; set; }
         public Lectures Lectures { get; set; }
     }

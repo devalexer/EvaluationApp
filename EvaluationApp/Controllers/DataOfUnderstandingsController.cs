@@ -20,6 +20,18 @@ namespace EvaluationApp.Controllers
             _context = context;
         }
 
+        //[HttpGet]
+        //public IActionResult Index()
+        //{
+        //    return View("InsertUserName");
+        //}
+
+        //[HttpPost]
+        //public IActionResult Index(string username)
+        //{
+        //    return View("Index", username);
+        //}
+
         // GET: DataOfUnderstandings
         public async Task<IActionResult> Index(string name, int lectureId)
         {
@@ -51,7 +63,7 @@ namespace EvaluationApp.Controllers
             data.Time = DateTime.Now;
             data.UnderstandingYorN = true;
             
-            // TODO: add to database
+            // add to database
             _context.Add(data);
             _context.SaveChanges();
             return Json("successful upvote");
@@ -64,10 +76,41 @@ namespace EvaluationApp.Controllers
             data.Time = DateTime.Now;
             data.UnderstandingYorN = false;
 
-            // TODO: add to database
+            // add to database
             _context.Add(data);
             _context.SaveChanges();
             return Json("successful downvote");
         }
+
+        // POST: DataOfUnderstandings/Comment
+        // Create comment without showing view
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Comment([FromBody][Bind("StudentsId,LecturesId")] Questions questions, string question)
+        {
+            questions.TimeAsked = DateTime.Now;
+            questions.QuestionText = question;
+
+            _context.Questions.Add(questions);
+            await _context.SaveChangesAsync();
+            return Json("successful comment made"); //Redirect("/");
+        }
+
+        // POST: DataOfUnderstanding/Comments
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Comments([Bind("Id,Name,School,CourseID")] DataOfUnderstanding comment)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _context.Add(comment);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(comment);
+        //}
+
     }
 }

@@ -35,8 +35,13 @@
 
             <div class="submitquest">Submit Questions Here:</div>
 
+            @*<form action="@Url.Action("Index")" method="post">
+                <input type="text" placeholder="Insert user name" name="userName" />
+                <input type="submit" value="Enter" />
+            </form>*@
+
             <div class="commentbox">
-                <form asp-action="Edit">
+                <form asp-action="Comment">
                     <div class="form-horizontal">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 

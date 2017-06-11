@@ -18,20 +18,19 @@ function drawLineColors(dataFromServer) {
         },
         hAxis: {
             title: 'Time (0.05 seconds)',
-            format: 'scientific', 
+            format: 'scientific' 
             //units: {
             //    seconds: { format: ['hh:mm:ss a', 'ss'] }
             //},    
         },
         colors: ['#1c91c0', '#097138'],
         lineWidth: 5,
-        gridlines: { count: -1 },
-        //title: 'Lecture Level of Understanding Graph',
+        gridlines: { count: -1 }
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
     chart.draw(data, options);
-};
+}
 
 function GetDataPoints() {
     jQuery.support.cors = true;
@@ -40,11 +39,11 @@ function GetDataPoints() {
         type: 'GET',
         dataType: 'json',
         success: function (dataFromServer) {
-            setTimeout(GetDataPoints, 1000)
+            setTimeout(GetDataPoints, 1000);
             drawLineColors(dataFromServer);
         },
         error: function (x, y) {
             console.log(x, y);
         }
     });
-};
+}

@@ -28,9 +28,9 @@ namespace EvaluationApp.Controllers
 
         // Will be deleted
         // Student Evaluator Tool
-        public IActionResult Evaluator()
-        {
-            return View();
-        }
+        //public IActionResult Evaluator()
+        //{
+        //    return View();
+        //}
     }
 }

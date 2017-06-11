@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using EvaluationApp.Data;
 using EvaluationApp.Models;
 using EvaluationApp.Services;
+using AspNetCoreChatRoom;
 
 namespace EvaluationApp
 {
@@ -77,6 +78,11 @@ namespace EvaluationApp
 
             // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
 
+            //***
+            app.UseWebSockets();
+            app.UseMiddleware<ChatWebSocketMiddleware>();
+            //***
+
             app.UseMvc(routes =>
             {
                 routes
@@ -86,9 +92,7 @@ namespace EvaluationApp
                     .MapRoute(
                         name: "studentsportal",
                         template: "{controller=Students}/{action=Portal}/{id}");
-                    //.MapRoute(
-                    //    name: "studentsportal",
-                    //    template: "{controller=Students}/{action=Portal}/{slug}")
+
             });
         }
     }
