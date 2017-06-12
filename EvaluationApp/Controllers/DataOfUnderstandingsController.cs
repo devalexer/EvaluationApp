@@ -82,19 +82,25 @@ namespace EvaluationApp.Controllers
             return Json("successful downvote");
         }
 
-        // POST: DataOfUnderstandings/Comment
-        // Create comment without showing view
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Comment([FromBody][Bind("StudentsId,LecturesId")] Questions questions, string question)
-        {
-            questions.TimeAsked = DateTime.Now;
-            questions.QuestionText = question;
+        //// POST: DataOfUnderstandings/Comment
+        //// Create comment without showing view
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Comment([FromBody][Bind("StudentsId,LecturesId")] /*Questions questions,*/ string question)
+        //{
+        //    //questions.TimeAsked = DateTime.Now;
+        //    //questions.QuestionText = question;
+        //    var studentquestion = question;
+        //    studentquestion = new Questions
+        //    {
+        //        QuestionText = studentquestion,
+        //        TimeAsked = DateTime.Now,
+        //    };
 
-            _context.Questions.Add(questions);
-            await _context.SaveChangesAsync();
-            return Json("successful comment made"); //Redirect("/");
-        }
+        //    _context.Add(studentquestion);
+        //    await _context.SaveChangesAsync();
+        //    return Json("successful comment made"); //Redirect("/");
+        //}
 
         // POST: DataOfUnderstanding/Comments
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 

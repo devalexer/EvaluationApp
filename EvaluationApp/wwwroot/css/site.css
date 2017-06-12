@@ -27,6 +27,24 @@ textarea {
 
 /*----------------
 ------------------
+HOME          PAGE
+------------------
+----------------*/
+
+#message {
+    max-width: 600px;
+}
+
+#services {
+    padding-bottom: 0;
+}
+
+#textcolumn {
+    text-align: justify;
+}
+
+/*----------------
+------------------
 LECTURER    PORTAL
 ------------------
 ----------------*/
