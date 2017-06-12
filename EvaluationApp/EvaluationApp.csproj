@@ -15,12 +15,16 @@
   <ItemGroup>
     <Compile Remove="wwwroot\images\portfolio\**" />
     <Compile Remove="wwwroot\images\team\**" />
+    <Compile Remove="wwwroot\img\about\**" />
     <Content Remove="wwwroot\images\portfolio\**" />
     <Content Remove="wwwroot\images\team\**" />
+    <Content Remove="wwwroot\img\about\**" />
     <EmbeddedResource Remove="wwwroot\images\portfolio\**" />
     <EmbeddedResource Remove="wwwroot\images\team\**" />
+    <EmbeddedResource Remove="wwwroot\img\about\**" />
     <None Remove="wwwroot\images\portfolio\**" />
     <None Remove="wwwroot\images\team\**" />
+    <None Remove="wwwroot\img\about\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -49,11 +53,11 @@
     <Content Include="wwwroot\images\logos\whitegraph.png" />
     <Content Include="wwwroot\images\map-image.png" />
     <Content Include="wwwroot\images\scholars.jpg" />
+    <Content Include="wwwroot\images\Step1.png" />
+    <Content Include="wwwroot\images\Step2.png" />
+    <Content Include="wwwroot\images\Step3.png" />
+    <Content Include="wwwroot\images\Step4.png" />
     <Content Include="wwwroot\images\whitegraph.png" />
-    <Content Include="wwwroot\img\about\1.jpg" />
-    <Content Include="wwwroot\img\about\2.jpg" />
-    <Content Include="wwwroot\img\about\3.jpg" />
-    <Content Include="wwwroot\img\about\4.jpg" />
     <Content Include="wwwroot\img\closelecture.jpg" />
     <Content Include="wwwroot\img\header-bg.jpg" />
     <Content Include="wwwroot\img\logos\creative-market.jpg" />
