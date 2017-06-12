@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EvaluationApp</id>
+    <version>1.0.0</version>
+    <authors>EvaluationApp</authors>
+    <owners>EvaluationApp</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.1">
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Cookies" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.BrowserLink" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.WebSockets" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="1.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ApplicationInsights.AspNetCore" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.StaticFiles" version="1.1.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp1.1/wwwroot/css/agency.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/site.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/site.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/favicon.ico" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/about/1.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/about/2.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/about/3.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/about/4.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/blackbluelecture.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/chart.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/closelecture.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/computer.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/header-bg.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/logos/creative-market.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/logos/designmodo.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/logos/envato.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/logos/themeforest.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/map-image.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/scholars.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/Step1.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/Step2.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/Step3.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/Step4.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/whitegraph.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/closelecture.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/header-bg.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/logos/creative-market.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/logos/designmodo.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/logos/envato.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/logos/themeforest.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/map-image.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/01-full.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/01-thumbnail.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/02-full.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/02-thumbnail.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/03-full.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/03-thumbnail.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/04-full.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/04-thumbnail.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/05-full.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/05-thumbnail.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/06-full.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/portfolio/06-thumbnail.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/team/1.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/team/2.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/img/team/3.jpg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/agency.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/agency.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/buttons.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/contact_me.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/graph.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/jqBootstrapValidation.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/site.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/site.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/studentSignUp.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/.gitignore" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/css/agency.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/css/agency.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/gulpfile.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/index.html" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/js/agency.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/js/agency.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/js/contact_me.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/js/jqBootstrapValidation.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/mail/contact_me.php" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/package.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/README.md" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/agency.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_bootstrap-overrides.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_contact.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_footer.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_global.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_masthead.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_mixins.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_navbar.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_portfolio.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_services.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_team.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_timeline.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/scss/_variables.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-grid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-grid.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-reboot.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-reboot.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/js/bootstrap.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/bootstrap/js/bootstrap.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/css/font-awesome.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/css/font-awesome.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.eot" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.ttf" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.woff" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.woff2" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/FontAwesome.otf" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/animated.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/bordered-pulled.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/core.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/fixed-width.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/font-awesome.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/icons.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/larger.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/list.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/mixins.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/path.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/rotated-flipped.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/screen-reader.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/stacked.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/less/variables.less" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/font-awesome.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_animated.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_bordered-pulled.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_core.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_fixed-width.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_icons.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_larger.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_list.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_mixins.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_path.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_rotated-flipped.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_screen-reader.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_stacked.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_variables.scss" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/jquery-easing/jquery.easing.compatibility.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/jquery-easing/jquery.easing.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/jquery-easing/jquery.easing.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/jquery/jquery.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/jquery/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/tether/tether.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/agencybootstrap/vendor/tether/tether.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/bootstrap.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/npm.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/additional-methods.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/jquery.validate.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/LICENSE.md" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.min.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/LICENSE.txt" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/AccessDenied.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/ConfirmEmail.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/ExternalLoginConfirmation.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/ExternalLoginFailure.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/ForgotPassword.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/ForgotPasswordConfirmation.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/Lockout.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/Login.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/Register.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/ResetPassword.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/ResetPasswordConfirmation.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/SendCode.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Account/VerifyCode.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Courses/Create.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Courses/Delete.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Courses/Details.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Courses/Edit.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Courses/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/DataOfUnderstandings/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Home/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Lectures/Create.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Lectures/Delete.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Lectures/Details.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Lectures/Edit.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Lectures/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Manage/AddPhoneNumber.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Manage/ChangePassword.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Manage/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Manage/ManageLogins.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Manage/SetPassword.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Manage/VerifyPhoneNumber.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/Error.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_GraphPartial.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_Layout.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_LoginPartial.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_QuestionPartial.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_ValidationScriptsPartial.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Students/Create.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Students/Delete.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Students/Details.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Students/Edit.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Students/Evaluator.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Students/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Students/Portal.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/_ViewImports.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/_ViewStart.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/bundleconfig.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Properties/launchSettings.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/logos/whitegraph.png" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\bin\Debug\netcoreapp1.1\EvaluationApp.runtimeconfig.json" target="lib\netcoreapp1.1\EvaluationApp.runtimeconfig.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\bin\Debug\netcoreapp1.1\EvaluationApp.dll" target="lib\netcoreapp1.1\EvaluationApp.dll" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\css\agency.min.css" target="content\wwwroot\css\agency.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\css\agency.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\agency.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\css\site.css" target="content\wwwroot\css\site.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\css\site.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\site.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\css\site.min.css" target="content\wwwroot\css\site.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\css\site.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\site.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\favicon.ico" target="content\wwwroot\favicon.ico" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\favicon.ico" target="contentFiles\any\netcoreapp1.1\wwwroot\favicon.ico" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\1.jpg" target="content\wwwroot\images\about\1.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\1.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\about\1.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\2.jpg" target="content\wwwroot\images\about\2.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\2.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\about\2.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\3.jpg" target="content\wwwroot\images\about\3.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\3.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\about\3.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\4.jpg" target="content\wwwroot\images\about\4.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\about\4.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\about\4.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\blackbluelecture.jpg" target="content\wwwroot\images\blackbluelecture.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\blackbluelecture.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\blackbluelecture.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\chart.png" target="content\wwwroot\images\chart.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\chart.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\chart.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\closelecture.jpg" target="content\wwwroot\images\closelecture.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\closelecture.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\closelecture.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\computer.png" target="content\wwwroot\images\computer.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\computer.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\computer.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\header-bg.jpg" target="content\wwwroot\images\header-bg.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\header-bg.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\header-bg.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\creative-market.jpg" target="content\wwwroot\images\logos\creative-market.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\creative-market.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\logos\creative-market.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\designmodo.jpg" target="content\wwwroot\images\logos\designmodo.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\designmodo.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\logos\designmodo.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\envato.jpg" target="content\wwwroot\images\logos\envato.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\envato.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\logos\envato.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\themeforest.jpg" target="content\wwwroot\images\logos\themeforest.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\themeforest.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\logos\themeforest.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\map-image.png" target="content\wwwroot\images\map-image.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\map-image.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\map-image.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\scholars.jpg" target="content\wwwroot\images\scholars.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\scholars.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\scholars.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step1.png" target="content\wwwroot\images\Step1.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step1.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\Step1.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step2.png" target="content\wwwroot\images\Step2.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step2.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\Step2.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step3.png" target="content\wwwroot\images\Step3.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step3.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\Step3.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step4.png" target="content\wwwroot\images\Step4.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\Step4.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\Step4.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\whitegraph.png" target="content\wwwroot\images\whitegraph.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\whitegraph.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\whitegraph.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\closelecture.jpg" target="content\wwwroot\img\closelecture.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\closelecture.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\closelecture.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\header-bg.jpg" target="content\wwwroot\img\header-bg.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\header-bg.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\header-bg.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\creative-market.jpg" target="content\wwwroot\img\logos\creative-market.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\creative-market.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\logos\creative-market.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\designmodo.jpg" target="content\wwwroot\img\logos\designmodo.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\designmodo.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\logos\designmodo.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\envato.jpg" target="content\wwwroot\img\logos\envato.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\envato.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\logos\envato.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\themeforest.jpg" target="content\wwwroot\img\logos\themeforest.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\logos\themeforest.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\logos\themeforest.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\map-image.png" target="content\wwwroot\img\map-image.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\map-image.png" target="contentFiles\any\netcoreapp1.1\wwwroot\img\map-image.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\01-full.jpg" target="content\wwwroot\img\portfolio\01-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\01-full.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\01-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\01-thumbnail.jpg" target="content\wwwroot\img\portfolio\01-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\01-thumbnail.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\01-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\02-full.jpg" target="content\wwwroot\img\portfolio\02-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\02-full.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\02-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\02-thumbnail.jpg" target="content\wwwroot\img\portfolio\02-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\02-thumbnail.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\02-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\03-full.jpg" target="content\wwwroot\img\portfolio\03-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\03-full.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\03-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\03-thumbnail.jpg" target="content\wwwroot\img\portfolio\03-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\03-thumbnail.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\03-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\04-full.jpg" target="content\wwwroot\img\portfolio\04-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\04-full.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\04-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\04-thumbnail.jpg" target="content\wwwroot\img\portfolio\04-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\04-thumbnail.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\04-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\05-full.jpg" target="content\wwwroot\img\portfolio\05-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\05-full.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\05-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\05-thumbnail.jpg" target="content\wwwroot\img\portfolio\05-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\05-thumbnail.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\05-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\06-full.jpg" target="content\wwwroot\img\portfolio\06-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\06-full.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\06-full.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\06-thumbnail.jpg" target="content\wwwroot\img\portfolio\06-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\portfolio\06-thumbnail.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\portfolio\06-thumbnail.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\team\1.jpg" target="content\wwwroot\img\team\1.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\team\1.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\team\1.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\team\2.jpg" target="content\wwwroot\img\team\2.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\team\2.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\team\2.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\team\3.jpg" target="content\wwwroot\img\team\3.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\img\team\3.jpg" target="contentFiles\any\netcoreapp1.1\wwwroot\img\team\3.jpg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\agency.js" target="content\wwwroot\js\agency.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\agency.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\agency.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\agency.min.js" target="content\wwwroot\js\agency.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\agency.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\agency.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\buttons.js" target="content\wwwroot\js\buttons.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\buttons.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\buttons.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\contact_me.js" target="content\wwwroot\js\contact_me.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\contact_me.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\contact_me.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\graph.js" target="content\wwwroot\js\graph.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\graph.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\graph.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\jqBootstrapValidation.js" target="content\wwwroot\js\jqBootstrapValidation.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\jqBootstrapValidation.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\jqBootstrapValidation.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\site.js" target="content\wwwroot\js\site.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\site.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\site.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\site.min.js" target="content\wwwroot\js\site.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\site.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\site.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\studentSignUp.js" target="content\wwwroot\js\studentSignUp.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\js\studentSignUp.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\studentSignUp.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\.gitignore" target="content\wwwroot\lib\agencybootstrap\.gitignore" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\.gitignore" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\.gitignore" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\css\agency.css" target="content\wwwroot\lib\agencybootstrap\css\agency.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\css\agency.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\css\agency.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\css\agency.min.css" target="content\wwwroot\lib\agencybootstrap\css\agency.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\css\agency.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\css\agency.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\gulpfile.js" target="content\wwwroot\lib\agencybootstrap\gulpfile.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\gulpfile.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\gulpfile.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\index.html" target="content\wwwroot\lib\agencybootstrap\index.html" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\index.html" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\index.html" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\agency.js" target="content\wwwroot\lib\agencybootstrap\js\agency.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\agency.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\js\agency.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\agency.min.js" target="content\wwwroot\lib\agencybootstrap\js\agency.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\agency.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\js\agency.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\contact_me.js" target="content\wwwroot\lib\agencybootstrap\js\contact_me.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\contact_me.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\js\contact_me.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\jqBootstrapValidation.js" target="content\wwwroot\lib\agencybootstrap\js\jqBootstrapValidation.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\js\jqBootstrapValidation.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\js\jqBootstrapValidation.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\LICENSE" target="content\wwwroot\lib\agencybootstrap\LICENSE" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\LICENSE" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\LICENSE" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\mail\contact_me.php" target="content\wwwroot\lib\agencybootstrap\mail\contact_me.php" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\mail\contact_me.php" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\mail\contact_me.php" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\package.json" target="content\wwwroot\lib\agencybootstrap\package.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\package.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\package.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\README.md" target="content\wwwroot\lib\agencybootstrap\README.md" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\README.md" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\README.md" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\agency.scss" target="content\wwwroot\lib\agencybootstrap\scss\agency.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\agency.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\agency.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_bootstrap-overrides.scss" target="content\wwwroot\lib\agencybootstrap\scss\_bootstrap-overrides.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_bootstrap-overrides.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_bootstrap-overrides.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_contact.scss" target="content\wwwroot\lib\agencybootstrap\scss\_contact.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_contact.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_contact.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_footer.scss" target="content\wwwroot\lib\agencybootstrap\scss\_footer.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_footer.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_footer.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_global.scss" target="content\wwwroot\lib\agencybootstrap\scss\_global.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_global.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_global.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_masthead.scss" target="content\wwwroot\lib\agencybootstrap\scss\_masthead.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_masthead.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_masthead.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_mixins.scss" target="content\wwwroot\lib\agencybootstrap\scss\_mixins.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_mixins.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_mixins.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_navbar.scss" target="content\wwwroot\lib\agencybootstrap\scss\_navbar.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_navbar.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_navbar.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_portfolio.scss" target="content\wwwroot\lib\agencybootstrap\scss\_portfolio.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_portfolio.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_portfolio.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_services.scss" target="content\wwwroot\lib\agencybootstrap\scss\_services.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_services.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_services.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_team.scss" target="content\wwwroot\lib\agencybootstrap\scss\_team.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_team.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_team.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_timeline.scss" target="content\wwwroot\lib\agencybootstrap\scss\_timeline.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_timeline.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_timeline.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_variables.scss" target="content\wwwroot\lib\agencybootstrap\scss\_variables.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\scss\_variables.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\scss\_variables.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.css" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.min.css" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.css" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.min.css" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.css" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.min.css" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\css\bootstrap.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.js" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.min.js" target="content\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\bootstrap\js\bootstrap.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.css" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.min.css" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\css\font-awesome.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.eot" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.eot" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.svg" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.ttf" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.ttf" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff2" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff2" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\FontAwesome.otf" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\FontAwesome.otf" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\animated.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\animated.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\animated.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\animated.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\bordered-pulled.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\bordered-pulled.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\bordered-pulled.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\bordered-pulled.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\core.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\core.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\core.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\core.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\fixed-width.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\fixed-width.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\fixed-width.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\fixed-width.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\font-awesome.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\font-awesome.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\font-awesome.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\font-awesome.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\icons.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\icons.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\icons.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\icons.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\larger.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\larger.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\larger.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\larger.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\list.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\list.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\list.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\list.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\mixins.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\mixins.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\mixins.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\mixins.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\path.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\path.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\path.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\path.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\rotated-flipped.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\rotated-flipped.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\rotated-flipped.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\rotated-flipped.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\screen-reader.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\screen-reader.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\screen-reader.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\screen-reader.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\stacked.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\stacked.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\stacked.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\stacked.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\variables.less" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\variables.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\variables.less" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\less\variables.less" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\font-awesome.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\font-awesome.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\font-awesome.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\font-awesome.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_animated.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_animated.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_animated.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_animated.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_bordered-pulled.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_bordered-pulled.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_core.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_core.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_core.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_core.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_fixed-width.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_fixed-width.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_fixed-width.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_fixed-width.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_icons.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_icons.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_icons.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_icons.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_larger.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_larger.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_larger.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_larger.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_list.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_list.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_list.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_list.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_mixins.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_mixins.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_mixins.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_mixins.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_path.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_path.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_path.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_path.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_rotated-flipped.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_rotated-flipped.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_screen-reader.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_screen-reader.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_screen-reader.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_screen-reader.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_stacked.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_stacked.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_stacked.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_stacked.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_variables.scss" target="content\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_variables.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_variables.scss" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\font-awesome\scss\_variables.scss" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.compatibility.js" target="content\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.compatibility.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.js" target="content\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.min.js" target="content\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\jquery-easing\jquery.easing.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.js" target="content\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.min.js" target="content\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\jquery\jquery.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\tether\tether.js" target="content\wwwroot\lib\agencybootstrap\vendor\tether\tether.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\tether\tether.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\tether\tether.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\tether\tether.min.js" target="content\wwwroot\lib\agencybootstrap\vendor\tether\tether.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\agencybootstrap\vendor\tether\tether.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\agencybootstrap\vendor\tether\tether.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\.bower.json" target="content\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\js\npm.js" target="content\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\dist\js\npm.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\LICENSE" target="content\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\bootstrap\LICENSE" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="content\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\.bower.json" target="content\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\LICENSE.md" target="content\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery-validation\LICENSE.md" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\.bower.json" target="content\wwwroot\lib\jquery\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\.bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\dist\jquery.js" target="content\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\dist\jquery.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\dist\jquery.min.js" target="content\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\dist\jquery.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\dist\jquery.min.map" target="content\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\dist\jquery.min.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\LICENSE.txt" target="content\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\lib\jquery\LICENSE.txt" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\AccessDenied.cshtml" target="content\Views\Account\AccessDenied.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\AccessDenied.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\AccessDenied.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ConfirmEmail.cshtml" target="content\Views\Account\ConfirmEmail.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ConfirmEmail.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\ConfirmEmail.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ExternalLoginConfirmation.cshtml" target="content\Views\Account\ExternalLoginConfirmation.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ExternalLoginConfirmation.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\ExternalLoginConfirmation.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ExternalLoginFailure.cshtml" target="content\Views\Account\ExternalLoginFailure.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ExternalLoginFailure.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\ExternalLoginFailure.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ForgotPassword.cshtml" target="content\Views\Account\ForgotPassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ForgotPassword.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\ForgotPassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ForgotPasswordConfirmation.cshtml" target="content\Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ForgotPasswordConfirmation.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\Lockout.cshtml" target="content\Views\Account\Lockout.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\Lockout.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\Lockout.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\Login.cshtml" target="content\Views\Account\Login.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\Login.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\Login.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\Register.cshtml" target="content\Views\Account\Register.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\Register.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\Register.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ResetPassword.cshtml" target="content\Views\Account\ResetPassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ResetPassword.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\ResetPassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ResetPasswordConfirmation.cshtml" target="content\Views\Account\ResetPasswordConfirmation.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\ResetPasswordConfirmation.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\ResetPasswordConfirmation.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\SendCode.cshtml" target="content\Views\Account\SendCode.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\SendCode.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\SendCode.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\VerifyCode.cshtml" target="content\Views\Account\VerifyCode.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Account\VerifyCode.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Account\VerifyCode.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Create.cshtml" target="content\Views\Courses\Create.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Create.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Courses\Create.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Delete.cshtml" target="content\Views\Courses\Delete.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Delete.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Courses\Delete.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Details.cshtml" target="content\Views\Courses\Details.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Details.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Courses\Details.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Edit.cshtml" target="content\Views\Courses\Edit.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Edit.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Courses\Edit.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Index.cshtml" target="content\Views\Courses\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Courses\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Courses\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\DataOfUnderstandings\Index.cshtml" target="content\Views\DataOfUnderstandings\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\DataOfUnderstandings\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\DataOfUnderstandings\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Home\Index.cshtml" target="content\Views\Home\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Home\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Home\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Create.cshtml" target="content\Views\Lectures\Create.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Create.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Lectures\Create.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Delete.cshtml" target="content\Views\Lectures\Delete.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Delete.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Lectures\Delete.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Details.cshtml" target="content\Views\Lectures\Details.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Details.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Lectures\Details.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Edit.cshtml" target="content\Views\Lectures\Edit.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Edit.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Lectures\Edit.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Index.cshtml" target="content\Views\Lectures\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Lectures\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Lectures\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\AddPhoneNumber.cshtml" target="content\Views\Manage\AddPhoneNumber.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\AddPhoneNumber.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Manage\AddPhoneNumber.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\ChangePassword.cshtml" target="content\Views\Manage\ChangePassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\ChangePassword.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Manage\ChangePassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\Index.cshtml" target="content\Views\Manage\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Manage\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\ManageLogins.cshtml" target="content\Views\Manage\ManageLogins.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\ManageLogins.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Manage\ManageLogins.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\SetPassword.cshtml" target="content\Views\Manage\SetPassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\SetPassword.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Manage\SetPassword.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\VerifyPhoneNumber.cshtml" target="content\Views\Manage\VerifyPhoneNumber.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Manage\VerifyPhoneNumber.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Manage\VerifyPhoneNumber.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\Error.cshtml" target="content\Views\Shared\Error.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\Error.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\Error.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_GraphPartial.cshtml" target="content\Views\Shared\_GraphPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_GraphPartial.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_GraphPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_Layout.cshtml" target="content\Views\Shared\_Layout.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_Layout.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_Layout.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_LoginPartial.cshtml" target="content\Views\Shared\_LoginPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_LoginPartial.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_LoginPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_QuestionPartial.cshtml" target="content\Views\Shared\_QuestionPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_QuestionPartial.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_QuestionPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_ValidationScriptsPartial.cshtml" target="content\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Shared\_ValidationScriptsPartial.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Create.cshtml" target="content\Views\Students\Create.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Create.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Students\Create.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Delete.cshtml" target="content\Views\Students\Delete.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Delete.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Students\Delete.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Details.cshtml" target="content\Views\Students\Details.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Details.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Students\Details.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Edit.cshtml" target="content\Views\Students\Edit.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Edit.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Students\Edit.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Evaluator.cshtml" target="content\Views\Students\Evaluator.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Evaluator.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Students\Evaluator.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Index.cshtml" target="content\Views\Students\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Students\Index.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Portal.cshtml" target="content\Views\Students\Portal.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\Students\Portal.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Students\Portal.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\_ViewImports.cshtml" target="content\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\_ViewImports.cshtml" target="contentFiles\any\netcoreapp1.1\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\_ViewStart.cshtml" target="content\Views\_ViewStart.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Views\_ViewStart.cshtml" target="contentFiles\any\netcoreapp1.1\Views\_ViewStart.cshtml" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\appsettings.Development.json" target="contentFiles\any\netcoreapp1.1\appsettings.Development.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\appsettings.json" target="contentFiles\any\netcoreapp1.1\appsettings.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\bower.json" target="content\bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\bower.json" target="contentFiles\any\netcoreapp1.1\bower.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\bundleconfig.json" target="content\bundleconfig.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\bundleconfig.json" target="contentFiles\any\netcoreapp1.1\bundleconfig.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\Properties\launchSettings.json" target="contentFiles\any\netcoreapp1.1\Properties\launchSettings.json" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\whitegraph.png" target="content\wwwroot\images\logos\whitegraph.png" />
+    <file src="C:\Users\Allie\Documents\Visual Studio 2017\Projects\EvaluationApp\EvaluationApp\wwwroot\images\logos\whitegraph.png" target="contentFiles\any\netcoreapp1.1\wwwroot\images\logos\whitegraph.png" />
+  </files>
+</package>
