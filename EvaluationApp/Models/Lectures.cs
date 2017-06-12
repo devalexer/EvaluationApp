@@ -14,6 +14,7 @@ namespace EvaluationApp.Models
         public ICollection<Students> Students { get; set; }
 
         public int CoursesId { get; set; }
+        public string CoursesName { get; set; }
         public Courses Courses { get; set; }
 
         public ICollection<DataOfUnderstanding> Datapoints { get; set; }

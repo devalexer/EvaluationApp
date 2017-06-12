@@ -2,8 +2,8 @@
     padding-left: 2em;
     padding-right: 2em;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body .Home {
@@ -47,12 +47,15 @@ HOME          PAGE
     text-align: justify;
 }
 
+#imgTimeLineCircle {
+    background-color: white;
+}
+
 /*----------------
 ------------------
 LECTURER    PORTAL
 ------------------
 ----------------*/
-
 #portaltitle {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -71,10 +74,28 @@ LECTURER    PORTAL
 
 /*----------------
 ------------------
-SIDE   NAV    MENU
+EDIT, DELETE PAGES
 ------------------
 ----------------*/
 
+.modificationPage {
+    border: 5px double black;
+    padding: 3em;
+    min-width: 30em;
+    height: auto;
+}
+
+.stepParentContainer {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 5em;
+}
+
+/*----------------
+------------------
+SIDE   NAV    MENU
+------------------
+----------------*/
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 15%; /* 0 width */
@@ -88,7 +109,7 @@ SIDE   NAV    MENU
 }
 
     /* The navigation menu links */
-    .sidenav a, dl, dt, dd {
+    .sidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
@@ -106,7 +127,6 @@ SIDE   NAV    MENU
     position: relative;
     margin-left: 18%;
 }
-
 
 /*----------------
 ------------------
