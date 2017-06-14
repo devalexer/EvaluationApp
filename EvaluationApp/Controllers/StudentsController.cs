@@ -26,21 +26,13 @@ namespace EvaluationApp.Controllers
             return View();
         }
 
-        // Will be deleted
-        // Student Evaluator Tool
-        //public IActionResult Evaluator()
-        //{
-        //    return View();
-        //}
-
-
+        //Student Attendance Page
         public async Task<IActionResult> Attendance(int id)
         {
-            var studentsNames = _context.Students.Select(l => l.Name);
+            var studentsNames = _context.Students.Where(s => s.LecturesId == id);
             ViewData["lecturesId"] = id;
             var vm = await studentsNames.ToListAsync();
-            var Ienum = vm as IEnumerable<Students>;
-            return View(Ienum);
+            return View(vm);
         }
     }
 }
