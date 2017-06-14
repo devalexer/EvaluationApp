@@ -13,7 +13,7 @@
         <br />
         <a href="/Home/Index">Home</a>
         <a href="/Lectures/Index/@Model.Id">Back</a>
-        <a href="/Students/Attendance">Attendance</a>
+        <a href="/Students/Attendance/@Model.Id">Attendance</a>
         <a asp-action="Index">Log-Out</a>
     </div>
 
@@ -23,7 +23,7 @@
 
         <h1 id="portaltitle">Lecture: @Model.Subject</h1>
       
-            <h6>The student access URL for this lecture will be:  @ViewData["currentURL"]/Students/Portal/@Model.Id</h6>
+            <h6>The student access URL for this lecture will be: &nbsp; <span class="urlText">@ViewData["currentURL"]/Students/Portal/@Model.Id></span></h6>
 
     <hr />
 
