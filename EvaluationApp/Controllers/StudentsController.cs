@@ -32,5 +32,15 @@ namespace EvaluationApp.Controllers
         //{
         //    return View();
         //}
+
+
+        public async Task<IActionResult> Attendance(int id)
+        {
+            var studentsNames = _context.Students.Select(l => l.Name);
+            ViewData["lecturesId"] = id;
+            var vm = await studentsNames.ToListAsync();
+            var Ienum = vm as IEnumerable<Students>;
+            return View(Ienum);
+        }
     }
 }

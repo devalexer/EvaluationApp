@@ -163,5 +163,14 @@ namespace EvaluationApp.Controllers
         {
             return _context.Lectures.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> Attendance(int id)
+        {
+            var studentNames = _context.Lectures.Include(l => l.StudentsName);  /*.Students.Include(l => l.Name);*/
+            ViewData["courseId"] = id;
+            var vm = await studentNames.ToListAsync();
+            //var list = vm as List<Students>;
+            return View(vm);
+        }
     }
 }
