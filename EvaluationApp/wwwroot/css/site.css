@@ -4,6 +4,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 body .Home {
@@ -27,6 +28,7 @@ textarea {
 
 a {
     color: #fe9d36;
+    font-size: 18px;
 }
 
 /*----------------
@@ -56,9 +58,15 @@ HOME          PAGE
 LECTURER    PORTAL
 ------------------
 ----------------*/
+
+#portallogo {
+    border: 1px solid white;
+}
+
 #portaltitle {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1.6em;
+    padding-bottom: .75em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .portalclasses {
@@ -70,6 +78,10 @@ LECTURER    PORTAL
     border: solid thin;
     border-color: lightgray;
     margin: 1em 1em 1em 1em;
+}
+
+.createNewButton {
+    font-family: 'Raleway', sans-serif;
 }
 
 /*----------------
@@ -96,6 +108,7 @@ EDIT, DELETE PAGES
 SIDE   NAV    MENU
 ------------------
 ----------------*/
+
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 15%; /* 0 width */
@@ -110,7 +123,7 @@ SIDE   NAV    MENU
 
     /* The navigation menu links */
     .sidenav a {
-        padding: 8px 8px 8px 32px;
+        padding: 8px 25px 8px 25px;
         text-decoration: none;
         font-size: 25px;
         color: #F0F5F8;
@@ -260,6 +273,7 @@ MEDIA      SCREENS
 
 #aboutText {
     font-size: 20px;
+    line-height: 34px;
 }
 
 /*#services {

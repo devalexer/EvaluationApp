@@ -37,6 +37,7 @@
 
   <ItemGroup>
     <Content Include="wwwroot\css\agency.min.css" />
+    <Content Include="wwwroot\css\agency.min.min.css" />
     <Content Include="wwwroot\images\about\1.jpg" />
     <Content Include="wwwroot\images\about\2.jpg" />
     <Content Include="wwwroot\images\about\3.jpg" />
@@ -45,6 +46,10 @@
     <Content Include="wwwroot\images\closelecture.jpg" />
     <Content Include="wwwroot\images\computer.png" />
     <Content Include="wwwroot\images\chart.png" />
+    <Content Include="wwwroot\images\Evaluchart3 wht-01.svg" />
+    <Content Include="wwwroot\images\Evaluchart3 wht-02.svg" />
+    <Content Include="wwwroot\images\Evaluchart3 wht-03.svg" />
+    <Content Include="wwwroot\images\yellowlogo.svg" />
     <Content Include="wwwroot\images\header-bg.jpg" />
     <Content Include="wwwroot\images\logos\creative-market.jpg" />
     <Content Include="wwwroot\images\logos\designmodo.jpg" />

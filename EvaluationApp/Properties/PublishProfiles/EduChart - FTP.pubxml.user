@@ -8,5 +8,515 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQuBCb9iVEkWsw9d9bCD6jwAAAAACAAAAAAAQZgAAAAEAACAAAADbEbWdZgNCvyVl+xrNWDxHfaNqs3JaZqOtSfDNgU7bzAAAAAAOgAAAAAIAACAAAACJ++z4A+SjLFsKYsjCi1nBMcXq0IUoGip1Foi6tYkGkoAAAAAOGNTUxTlNui1+AYgs55ziyABrbVuGnQC3uZ0gq/k+RxmOWZIsR+fa2r78DDAQSKfNSRKJj1VaU3+8xUDt5MlnggkXxKFNCtI6Eq8vL/q2l2eXdA+mUG7pavMpavGgz0Vd0XEjKzHrM4WeM0Ol2igWH9FFijKHUZfWpIvulK4SrUAAAAAsomCg203+MeuDikpOKV0wQCBzYK9af8y6reU/pdBTvxMCrJmad/iHtEO7ZQ0XnsbdfvoA4kyD048XMjve9LX2</EncryptedPassword>
     <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>ftp://waws-prod-sn1-065.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="wwwroot/css/agency.min.css">
+      <publishTime>06/01/2017 14:58:04</publishTime>
+    </File>
+    <File Include="wwwroot/css/agency.min.min.css">
+      <publishTime>06/14/2017 15:08:26</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>06/14/2017 14:38:25</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>06/14/2017 14:38:26</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/images/about/1.jpg">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/about/2.jpg">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/about/3.jpg">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/about/4.jpg">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/blackbluelecture.jpg">
+      <publishTime>05/18/2017 16:28:27</publishTime>
+    </File>
+    <File Include="wwwroot/images/chart.png">
+      <publishTime>05/16/2017 11:28:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/closelecture.jpg">
+      <publishTime>05/16/2017 12:40:12</publishTime>
+    </File>
+    <File Include="wwwroot/images/computer.png">
+      <publishTime>05/16/2017 12:13:55</publishTime>
+    </File>
+    <File Include="wwwroot/images/Evaluchart3 wht-01.svg">
+      <publishTime>06/14/2017 14:04:17</publishTime>
+    </File>
+    <File Include="wwwroot/images/Evaluchart3 wht-02.svg">
+      <publishTime>06/14/2017 14:04:17</publishTime>
+    </File>
+    <File Include="wwwroot/images/Evaluchart3 wht-03.svg">
+      <publishTime>06/14/2017 14:04:17</publishTime>
+    </File>
+    <File Include="wwwroot/images/header-bg.jpg">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/logos/creative-market.jpg">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/logos/designmodo.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/logos/envato.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/logos/themeforest.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/map-image.png">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/scholars.jpg">
+      <publishTime>05/18/2017 16:27:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/Step1.png">
+      <publishTime>06/11/2017 23:36:30</publishTime>
+    </File>
+    <File Include="wwwroot/images/Step2.png">
+      <publishTime>06/11/2017 23:40:49</publishTime>
+    </File>
+    <File Include="wwwroot/images/Step3.png">
+      <publishTime>06/11/2017 23:24:48</publishTime>
+    </File>
+    <File Include="wwwroot/images/Step4.png">
+      <publishTime>06/11/2017 23:39:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/whitegraph.png">
+      <publishTime>05/18/2017 13:24:40</publishTime>
+    </File>
+    <File Include="wwwroot/images/yellowlogo.svg">
+      <publishTime>06/14/2017 14:04:17</publishTime>
+    </File>
+    <File Include="wwwroot/img/closelecture.jpg">
+      <publishTime>05/16/2017 12:40:12</publishTime>
+    </File>
+    <File Include="wwwroot/img/header-bg.jpg">
+      <publishTime>06/01/2017 14:21:43</publishTime>
+    </File>
+    <File Include="wwwroot/img/logos/creative-market.jpg">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/img/logos/designmodo.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/logos/envato.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/logos/themeforest.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/map-image.png">
+      <publishTime>06/01/2017 14:21:43</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/01-full.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/01-thumbnail.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/02-full.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/02-thumbnail.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/03-full.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/03-thumbnail.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/04-full.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/04-thumbnail.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/05-full.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/05-thumbnail.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/06-full.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/portfolio/06-thumbnail.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/team/1.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/team/2.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/team/3.jpg">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/agency.js">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/agency.min.js">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/buttons.js">
+      <publishTime>05/26/2017 15:42:04</publishTime>
+    </File>
+    <File Include="wwwroot/js/contact_me.js">
+      <publishTime>06/01/2017 14:21:43</publishTime>
+    </File>
+    <File Include="wwwroot/js/graph.js">
+      <publishTime>06/10/2017 17:50:17</publishTime>
+    </File>
+    <File Include="wwwroot/js/jqBootstrapValidation.js">
+      <publishTime>06/12/2017 09:55:16</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/js/studentSignUp.js">
+      <publishTime>05/20/2017 21:40:04</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/.gitignore">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/css/agency.css">
+      <publishTime>05/17/2017 11:50:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/css/agency.min.css">
+      <publishTime>06/01/2017 14:58:04</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/gulpfile.js">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/index.html">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/js/agency.js">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/js/agency.min.js">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/js/contact_me.js">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/js/jqBootstrapValidation.js">
+      <publishTime>06/12/2017 09:55:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/LICENSE">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/mail/contact_me.php">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/package.json">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/README.md">
+      <publishTime>05/16/2017 21:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/agency.scss">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_bootstrap-overrides.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_contact.scss">
+      <publishTime>06/01/2017 14:48:40</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_footer.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_global.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_masthead.scss">
+      <publishTime>06/01/2017 14:58:04</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_mixins.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_navbar.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_portfolio.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_services.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_team.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_timeline.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/scss/_variables.scss">
+      <publishTime>05/16/2017 21:06:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/css/font-awesome.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/css/font-awesome.min.css">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/animated.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/bordered-pulled.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/core.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/fixed-width.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/font-awesome.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/icons.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/larger.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/list.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/mixins.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/path.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/rotated-flipped.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/screen-reader.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/stacked.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/less/variables.less">
+      <publishTime>05/16/2017 21:06:45</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/font-awesome.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_animated.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_core.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_fixed-width.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_icons.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_larger.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_list.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_mixins.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_path.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_screen-reader.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_stacked.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/font-awesome/scss/_variables.scss">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/jquery-easing/jquery.easing.compatibility.js">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/jquery-easing/jquery.easing.js">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/jquery-easing/jquery.easing.min.js">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/jquery/jquery.js">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/jquery/jquery.min.js">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/tether/tether.js">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/agencybootstrap/vendor/tether/tether.min.js">
+      <publishTime>05/16/2017 21:06:46</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>05/30/2017 09:44:41</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>05/28/2017 14:49:07</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>05/28/2017 14:49:07</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>05/28/2017 14:49:07</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>05/28/2017 14:49:07</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>05/28/2017 14:49:08</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>05/28/2017 14:49:07</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>05/05/2017 10:53:16</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

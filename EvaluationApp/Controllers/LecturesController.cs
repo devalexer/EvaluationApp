@@ -166,11 +166,11 @@ namespace EvaluationApp.Controllers
 
         public async Task<IActionResult> Attendance(int id)
         {
-            var studentNames = _context.Lectures.Include(l => l.StudentsName);  /*.Students.Include(l => l.Name);*/
-            ViewData["courseId"] = id;
+            var studentNames = _context.Lectures.Select(l => l.StudentsName);  /*.Students.Include(s => s.Name);*/
+            ViewData["lecturesId"] = id;
             var vm = await studentNames.ToListAsync();
-            //var list = vm as List<Students>;
-            return View(vm);
+            var list = vm as IEnumerable<Students>;
+            return View(list);
         }
     }
 }
