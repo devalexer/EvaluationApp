@@ -17,11 +17,13 @@ function drawLineColors(dataFromServer) {
             title: 'Level of Understanding (%)'
         },
         hAxis: {
-            title: 'Time (0.05 seconds)',
-            format: 'scientific' 
+            title: 'Time (minutes)', /*'Time (0.05 seconds)'*/
+            textPosition: 'none'
+            //format: 'scientific', 
             //units: {
             //    seconds: { format: ['hh:mm:ss a', 'ss'] }
-            //},    
+            //},  
+            //format: 'Date(year, month, day, hours, minutes, seconds, milliseconds)'
         },
         colors: ['#1c91c0', '#097138'],
         lineWidth: 5,

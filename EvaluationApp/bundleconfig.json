@@ -20,5 +20,11 @@
     "inputFiles": [
       "wwwroot/css/agency.min.css"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/js/graph.min.js",
+    "inputFiles": [
+      "wwwroot/js/graph.js"
+    ]
   }
 ]

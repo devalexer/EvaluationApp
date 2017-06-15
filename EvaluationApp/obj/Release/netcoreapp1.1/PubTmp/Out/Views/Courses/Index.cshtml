@@ -5,11 +5,15 @@
 }
 
 <div id="mySidenav" class="sidenav">
-    <center><a href="/Home/Index"><img src="~/images/Evaluchart3 wht-02.svg" alt="Logo" style="height:100px;width:150px" id="portallogo"></a></center>
+    <center><a href="/Home/Index"><img src="~/images/Evaluchart3 wht-02.svg" alt="Logo" style="height:100px;width:160px" id="portallogo"></a></center>
     <br />
     <a href="/Home/Index">Home</a>
-    <a href="#">Back</a>
-    <a href="#">Log Out</a>
+    <a href="/Home/Index">Back</a>
+
+    <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-right">
+        <button type="submit" class="btn btn-link navbar-btn navbar-link" id="logOutButton">Log-out</button>
+    </form>
+
 </div>
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page) -->

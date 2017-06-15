@@ -45,6 +45,7 @@ h1 {
 HOME          PAGE
 ------------------
 ----------------*/
+
 #message {
     max-width: 600px;
 }
@@ -61,18 +62,27 @@ HOME          PAGE
     background-color: white;
 }
 
+#aboutText {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+#mainNav .container .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+}
+
 /*----------------
 ------------------
 LECTURER    PORTAL
 ------------------
 ----------------*/
 
-#portallogo {
+    #portallogo {
     border: 1px solid white;
 }
 
 #portaltitle {
-    padding-top: 1.6em;
+    padding-top: 1.95em;
     padding-bottom: .75em;
     font-family: 'Raleway', sans-serif;
 }
@@ -126,6 +136,18 @@ ATTENDANCE   PAGES
 
 /*----------------
 ------------------
+LOG-IN        PAGE
+------------------
+----------------*/
+
+#logInLogo {
+    background-color: #3B494E;
+    max-height: 8em;
+    text-align: center;
+}
+
+/*----------------
+------------------
 SIDE   NAV    MENU
 ------------------
 ----------------*/
@@ -152,7 +174,7 @@ SIDE   NAV    MENU
     }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus {
+.sidenav a:hover /*, .offcanvas a:focus*/ {
        color: #f1f1f1;
 }
 
@@ -274,7 +296,7 @@ LECTURE   GRAPHING
 }
 
 .urlText {
-    background-color: lightblue;
+    background-color: lightgray;
     font-weight: 900;
     font-size: 18px;
 }
@@ -306,7 +328,3 @@ MEDIA      SCREENS
     }
 }
 
-#aboutText {
-    font-size: 20px;
-    line-height: 34px;
-}

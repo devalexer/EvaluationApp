@@ -42,15 +42,14 @@
     <Content Include="wwwroot\images\about\2.jpg" />
     <Content Include="wwwroot\images\about\3.jpg" />
     <Content Include="wwwroot\images\about\4.jpg" />
-    <Content Include="wwwroot\images\blackbluelecture.jpg" />
     <Content Include="wwwroot\images\closelecture.jpg" />
-    <Content Include="wwwroot\images\computer.png" />
-    <Content Include="wwwroot\images\chart.png" />
     <Content Include="wwwroot\images\Evaluchart3 wht-01.svg" />
     <Content Include="wwwroot\images\Evaluchart3 wht-02.svg" />
     <Content Include="wwwroot\images\Evaluchart3 wht-03.svg" />
+    <Content Include="wwwroot\images\Evaluchart3 yel 25-01.svg" />
+    <Content Include="wwwroot\images\Evaluchart3 yel 5-01.svg" />
+    <Content Include="wwwroot\images\Evaluchart3 yel-01.png" />
     <Content Include="wwwroot\images\yellowlogo.svg" />
-    <Content Include="wwwroot\images\header-bg.jpg" />
     <Content Include="wwwroot\images\logos\creative-market.jpg" />
     <Content Include="wwwroot\images\logos\designmodo.jpg" />
     <Content Include="wwwroot\images\logos\envato.jpg" />
@@ -90,6 +89,7 @@
     <Content Include="wwwroot\js\buttons.js" />
     <Content Include="wwwroot\js\contact_me.js" />
     <Content Include="wwwroot\js\graph.js" />
+    <Content Include="wwwroot\js\graph.min.js" />
     <Content Include="wwwroot\js\jqBootstrapValidation.js" />
     <Content Include="wwwroot\js\profChat.js" />
     <Content Include="wwwroot\js\studentChat.js" />

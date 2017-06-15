@@ -18,8 +18,8 @@ function drawLineColors(dataFromServer) {
         },
         hAxis: {
             title: 'Time (minutes)', /*'Time (0.05 seconds)'*/
-            //format: 'scientific', 
             textPosition: 'none'
+            //format: 'scientific', 
             //units: {
             //    seconds: { format: ['hh:mm:ss a', 'ss'] }
             //},  
