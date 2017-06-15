@@ -6,18 +6,21 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using EvaluationApp.Data;
 
-namespace AspNetCoreChatRoom
+namespace EvaluationApp
 {
     public class ChatWebSocketMiddleware
     {
         private static ConcurrentDictionary<string, WebSocket> _sockets = new ConcurrentDictionary<string, WebSocket>();
 
         private readonly RequestDelegate _next;
+        private ApplicationDbContext _context;
 
-        public ChatWebSocketMiddleware(RequestDelegate next)
+        public ChatWebSocketMiddleware(RequestDelegate next, ApplicationDbContext context)
         {
             _next = next;
+            _context = context;
         }
 
         public async Task Invoke(HttpContext context)
@@ -107,40 +110,3 @@ namespace AspNetCoreChatRoom
         }
     }
 }
-
-
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Threading.Tasks;
-//using Microsoft.AspNetCore.Builder;
-//using Microsoft.AspNetCore.Http;
-
-//namespace EvaluationApp
-//{
-//    // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
-//    public class ChatWebSocketMiddleware
-//    {
-//        private readonly RequestDelegate _next;
-
-//        public ChatWebSocketMiddleware(RequestDelegate next)
-//        {
-//            _next = next;
-//        }
-
-//        public Task Invoke(HttpContext httpContext)
-//        {
-
-//            return _next(httpContext);
-//        }
-//    }
-
-//    // Extension method used to add the middleware to the HTTP request pipeline.
-//    public static class ChatWebSocketMiddlewareExtensions
-//    {
-//        public static IApplicationBuilder UseChatWebSocketMiddleware(this IApplicationBuilder builder)
-//        {
-//            return builder.UseMiddleware<ChatWebSocketMiddleware>();
-//        }
-//    }
-//}

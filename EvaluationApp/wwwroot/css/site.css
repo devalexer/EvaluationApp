@@ -28,19 +28,23 @@ textarea {
 
 a {
     color: #fe9d36;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+
 /*----------------
 ------------------
 HOME          PAGE
 ------------------
 ----------------*/
-
 #message {
     max-width: 600px;
 }
@@ -142,7 +146,7 @@ SIDE   NAV    MENU
     .sidenav a {
         padding: 8px 25px 8px 25px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 22px;
         color: #F0F5F8;
         display: block;
     }
@@ -156,6 +160,14 @@ SIDE   NAV    MENU
 #main {
     position: relative;
     margin-left: 18%;
+}
+
+#logOutButton {
+    padding: 8px 25px 8px 25px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    color: #F0F5F8;
 }
 
 /*----------------

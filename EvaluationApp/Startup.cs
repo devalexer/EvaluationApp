@@ -12,7 +12,6 @@ using Microsoft.Extensions.Logging;
 using EvaluationApp.Data;
 using EvaluationApp.Models;
 using EvaluationApp.Services;
-using AspNetCoreChatRoom;
 
 namespace EvaluationApp
 {
