@@ -3,7 +3,7 @@
 
 ## EvaluChart
 
-Real-time evaluation application that tracks feedback from multiple users and displays it on master screen
+Real-time educational evaluation application that tracks feedback from multiple users and displays it on a master screen
 
 ## TECHNICAL INFORMATION:
 - Visual Studio 2017
@@ -15,7 +15,7 @@ Real-time evaluation application that tracks feedback from multiple users and di
 
 ## PURPOSE:
 
-This was created as a final project for the Iron Yard program, designed to pull together all knowledge from the bootcamp course.
+This application was created as a final project for the Iron Yard program, designed to pull together all knowledge from the bootcamp course.
 
 ## ESTIMATED TIME FOR PROJECT:
 
