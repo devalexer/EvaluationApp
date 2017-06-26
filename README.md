@@ -3,7 +3,7 @@
 
 ## EvaluChart
 
-Real-time educational evaluation application that tracks feedback from multiple users and displays it on a master screen
+Real-time feedback tool for educators to monitor student levels of comprehension and questions during lectures. The educational evaluation application tracks feedback from multiple users and displays it on a master screen.
 
 ## TECHNICAL INFORMATION:
 - Visual Studio 2017
