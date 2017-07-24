@@ -36,6 +36,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\EduChart - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\EduChart - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\EvaluChart - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\EvaluChart - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="wwwroot\css\agency.min.css" />
     <Content Include="wwwroot\css\agency.min.min.css" />
     <Content Include="wwwroot\images\about\1.jpg" />
@@ -194,6 +201,9 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>
